@@ -1,27 +1,47 @@
-* {
-    padding: 10px;
+ * { 
     margin: 10px;
+    padding: 10px;
+ }  
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 10px auto;
 }
-h1 {
-    background-color: blanchedalmond;
-    color: blueviolet;
-    font-size: 30pt;
-    font-family: cursive;
+.top-nav {
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
 }
-h2 {
-    background-color: cadetblue;
-    color:brown;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    vertical-align: top;
 }
-h4 {
-    background-color: darkcyan;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: right;
+.main {
+    height: 400px;
+    width: 700px;
+    margin: 10px;
+    padding: 20px;
+    background-color: red;
+    float: right;
+    /* vertical-align: top; */
 }
-span {
-
-    color: orangered;
-
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+}
+.row { 
+    margin: 5px;
+    padding: 5px; 
+    display: flex;
 }
