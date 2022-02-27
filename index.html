@@ -4,12 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List of Projects</title>
+    <title>Button Click</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <h1>My<span>Cloud</span></h1>
-    <h2>Completed Projects:</h2>
-    <h4>Contact Us</h4>
+    <div class="header">
+        <h1>Dojonary</h1>
+        <div class="srch">
+            <input type="text" class="search" placeholder="search">
+        </div>
+        <button class="button" onclick="change(this)">Login</button>
+    </div>
+    <div class="mainbody">
+        <div class="col1">
+            <div class="topcol">
+                <div>
+                    <h2>ninja</h2>
+                    <h5>noun</h5>
+                    <h6>Plural: <em>ninjas</em></h6>
+                    <button class="likes">15 Likes</button>
+                </div>
+                <div>
+                    <p>A practitioner skilled in the<br><a href="">Japanese</a> art of <a href="">ninjutsu</a>.</p>
+                </div>                
+            </div> 
+            <div class="basecol">
+                <div>
+                    <h2>ninja</h2>
+                    <h5>noun</h5>
+                    <h6>Plural: <em>ninjas</em></h6>
+                    <button class="likes" onclick="alert('Ninja was liked.!!')">39 Likes</button>
+                </div>
+                <div>
+                    <p>A <a href="">programmer</a> who breaks<br>down problems with <a href="">zen</a>-like focus.</p>
+                </div>                
+            </div>
+        </div>
+        <div class="col2">
+            <h3>Dojonary is defined by YOU</h3>
+            <button class="button" id="def" onclick="removeName(this)">Add Definition</button>
+        </div>
+    </div>    
 </body>
 </html>
